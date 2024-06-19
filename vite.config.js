@@ -7,7 +7,7 @@ export default defineConfig({
 
   build: {
     rollupOptions: {
-      external: ['vue-router']
+      external: ['vue-router', 'firebase/app']
     }
   }
 })
